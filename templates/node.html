@@ -1,0 +1,29 @@
+<h1> Initialize Node </h1>
+<html lang="en">
+ 
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <title>NODE</title>
+    
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/favicon.ico') }}">
+
+    <link href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static',filename='css/sb-admin.css')}}" rel="stylesheet">
+   
+  </head>
+  <div>
+  <div>
+<form action = '/blockchain.json' method='GET'>
+    <input type="submit" value="Start Node" class="btn btn-primary btn-block small mt-6 " >
+
+</form> 
+</div>
+ 
+</div>
